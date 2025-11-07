@@ -1,12 +1,14 @@
-# React + Vite
+should have .env.local file
+VITE_FIREBASE_API_KEY="Firebase api key"
+VITE_FIREBASE_AUTH_DOMAIN="Firebase auth domain"
+VITE_FIREBASE_PROJECT_ID="Firebase project id"
+VITE_FIREBASE_STORAGE_BUCKET="Firebase storage bucket"
+VITE_FIREBASE_MESSAGING_SENDER_ID="Firebase messaging sender id"
+VITE_FIREBASE_APP_ID="Firebase api id"
+VITE_FIREBASE_MEASUREMENT_ID="Firebase measurement id"
+VITE_SERVER_URL="Server Url"
+VITE_ADMIN_ROLE_ID="Admin firebase authentication email uid"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Run npm install
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Now, at last, run npm run dev
